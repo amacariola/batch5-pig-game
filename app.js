@@ -107,7 +107,7 @@ const showWinner = (player) => {
         scoreP2.textContent = `${player2Total}`;
         document.querySelector('#name-1').textContent = 'Player 2 wins!';
         player2Panel.classList.add('winner');
-        player2Panel.classList.remove('active');        
+        player2Panel.classList.remove('active');
     }
 }
 
