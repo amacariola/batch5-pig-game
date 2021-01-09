@@ -73,7 +73,7 @@ const addToTotal = () => {
 
 // switch player is activated if dice is 1, or the user pressed the hold button
 const switchPlayer= () => {
-    // switch player        
+    // switch player
     current = 0;
     if(turn === 1) {
         turn = 2;
@@ -100,12 +100,12 @@ const showWinner = (player) => {
 
     if(player === 1) {
         scoreP1.textContent = `${player1Total}`;
-        document.querySelector('#name-0').textContent = 'Player 1 wins!';        
+        document.querySelector('#name-0').textContent = 'Player 1 wins!';
         player1Panel.classList.add('winner');
         player1Panel.classList.remove('active');
     } else {
         scoreP2.textContent = `${player2Total}`;
-        document.querySelector('#name-1').textContent = 'Player 2 wins!';        
+        document.querySelector('#name-1').textContent = 'Player 2 wins!';
         player2Panel.classList.add('winner');
         player2Panel.classList.remove('active');        
     }
