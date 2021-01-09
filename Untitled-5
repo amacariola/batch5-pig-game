@@ -1,0 +1,4 @@
+js is proptotype based laguage
+prototype is used to impliment inheritance in js 
+each and every object has property called prototype which helps to impliment inharitance 
+each intance in js is prototype of Object
